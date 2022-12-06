@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState, useEffect} from 'react';
+import Navbar from './components/Navbar/navbar.js'
+import Welcome  from './components/welcome.js';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-  <h1 className="text-3xl font-bold underline">
-    Hello nigga
-  </h1>
+    <>
+    <div className='navbar'>
+      <Navbar/>
+    </div>
+    <div className="landing-page">
+      <Welcome/>
+    </div>
+    </>
   );
 }
 
