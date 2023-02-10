@@ -5,7 +5,7 @@ import {useEffect} from 'react';
 import TextAnimation from "./animations/TextAnimation";
 import styled, { keyframes } from "styled-components";
 import './animations/text-split.css'
-
+import Cal from './calc.js'
 
 function Hero() {
   return (
@@ -44,7 +44,11 @@ function Hero() {
         </div>
 
       </section>
+      <div>
+          <Cal/>
+        </div>
     </div>
+    
   );
 }
 
