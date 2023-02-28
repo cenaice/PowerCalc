@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.8",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.4.4",
     "split-type": "^0.3.3",

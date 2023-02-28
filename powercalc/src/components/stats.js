@@ -1,3 +1,4 @@
+import styles from "./style.js"
 
 function Stats() {
     return (
